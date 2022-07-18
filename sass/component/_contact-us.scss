@@ -1,0 +1,62 @@
+.contact-us{
+    background-color:$color-background;
+    padding:62px 82px;
+
+}
+.contact-us__title{
+    @include font($size:3.4rem,$height:4.6rem);
+    margin:0 0 17px;
+}
+
+.contact-us__content{
+    max-width:520px;
+}
+.contact-us__text{
+    max-width:528px;
+    margin:0 0 30px;
+}
+.contact-us__form{
+    margin-top:7px;
+    input,textarea{
+        border:1px solid $color-light;
+        background-color: $color-light;
+        padding: 10px 21px;
+        border-radius: 5px;
+        
+        &:focus{
+            outline:none;
+            border-color: $color-primary;
+        }
+    }
+    textarea{
+        width:100%;
+        resize: none;
+    }
+}
+.contact-us__line{
+    margin-bottom: 19px;
+}
+.contact-us__button{
+    >*{
+        min-width:117px;
+    }
+}
+.contact-us__links{
+    display:flex;
+}
+
+.contact-us__links{
+    text-decoration: none;
+    color:$color-text;
+    @include font($size:2.5rem,$height:2.6rem,$weight:normal);
+    a{
+        margin-left:11px;
+        color:$color-text;
+        text-decoration: none;
+    }
+    &:hover{
+        a{
+            text-decoration: underline;
+        }
+    }
+}

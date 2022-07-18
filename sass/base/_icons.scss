@@ -1,0 +1,73 @@
+.ico{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ico_play{
+    background-image: url("../../image/icons/tricon.svg");
+    width:18px;
+    height:19px;
+}
+.ico_arrow{
+    background-image: url("../../image/icons/arrow.svg");
+    width:12px;
+    height:17px;
+}
+.ico_heart{
+    background-image: url("../../image/icons/heart.svg");
+    width:17px;
+    height:15px;
+}
+.ico_snake{
+    background-image: url("../../image/icons/snake.svg");
+    width:18px;
+    height:14px;
+}
+.ico_clock{
+    background-image: url("../../image/icons/clock.svg");
+    width:15px;
+    height:17px;
+}
+.icon-square{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height:50px;
+    border-radius:19px;
+
+    &_yellow{
+        background-color:$color-yellow;
+    }
+    &_red{
+        background-color:$color-red;
+    }
+    &_blue{
+        background-color:$color-blue;
+    }
+    &_violet{
+        background-color:$color-violet;
+    }
+}
+.ico_phone{
+    background-image: url("/image/icons/phone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:7px;
+    height:11px;
+}
+.ico_round{
+    background-color: $color-light;
+    padding:13px;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    margin-right:11px;
+}
+.ico_letter{
+    background-image: url("../../image/icons/letter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:11px;
+    height:8px;
+}
